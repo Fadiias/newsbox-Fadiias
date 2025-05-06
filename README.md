@@ -66,3 +66,6 @@ I filen der hedder projektdokumentation.md skal du dokumentere dit projekt og de
 
 
 Rigtig god arbejdslyst
+ 
+
+ linket : https://newsaski.netlify.app/

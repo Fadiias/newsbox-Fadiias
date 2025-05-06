@@ -1,4 +1,9 @@
-import { TextEncoder, TextDecoder } from 'util';
+// vitest.setup.js
+import { TextEncoder, TextDecoder } from 'util'
 
-global.TextEncoder = TextEncoder;
-global.TextDecoder = TextDecoder;
+if (!globalThis.TextEncoder) {
+  globalThis.TextEncoder = TextEncoder
+}
+if (!globalThis.TextDecoder) {
+  globalThis.TextDecoder = TextDecoder
+}
