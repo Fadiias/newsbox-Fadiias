@@ -1,0 +1,18 @@
+{
+  "name": "newsbox",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.12",
+    "sass-embedded": "^1.87.0",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.3"
+  }
+}
